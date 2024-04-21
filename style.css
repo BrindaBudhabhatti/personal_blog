@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #202225;
+    padding: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ddd;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  nav {
+    background-color: #18191c;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ddd;
+
+  }
+  
+  main {
+    padding: 20px;
+    color: #ddd;
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 5%;
+    color: #ddd;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #18191c;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+  }
+
+  main {
+  padding: 20px;
+  background-color: #202225;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #202225;
+  color: #ddd;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #18191c;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #242629;
+  color: #ddd;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #2f3135;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #232427;
+}
+
+.home-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.png");
+  
+  height: 40%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+
+.bg-text
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.png");
+  
+  height: 8in;
+
+  top: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content {
+  margin: 5%;
+  text-align: center;
+} 
